@@ -14,8 +14,8 @@ import (
 
 	"code.google.com/p/go.crypto/pbkdf2"
 
-	"github.com/gyepisam/mcf"
-	"github.com/gyepisam/mcf/bridge"
+	"github.com/pzduniak/mcf"
+	"github.com/pzduniak/mcf/bridge"
 )
 
 // Hash represents the HMAC hash function that the PBKDF2 algorithm uses as a pseudorandom function.

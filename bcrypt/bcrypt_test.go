@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gyepisam/mcf"
+	"github.com/pzduniak/mcf"
 	"testing"
 )
 

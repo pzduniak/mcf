@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/gyepisam/mcf"
-	"github.com/gyepisam/mcf/password"
+	"github.com/pzduniak/mcf"
+	"github.com/pzduniak/mcf/password"
 )
 
 var testVectors = []struct {

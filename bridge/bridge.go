@@ -5,15 +5,15 @@
 // Package bridge simplifies the creation of a password encoder by abstracting out the generic parts.
 
 // Concrete implementations that use this package can be greatly simplified.
-// See github.com/gyepisam/mcf/scrypt and github.com/gyepisam/mcf/pbkdf2
+// See github.com/pzduniak/mcf/scrypt and github.com/pzduniak/mcf/pbkdf2
 
 package bridge
 
 import (
 	"crypto/subtle"
 
-	"github.com/gyepisam/mcf/encoder"
-	"github.com/gyepisam/mcf/password"
+	"github.com/pzduniak/mcf/encoder"
+	"github.com/pzduniak/mcf/password"
 )
 
 // Implementer represents a concrete implementation such as scrypt or pbkdf2

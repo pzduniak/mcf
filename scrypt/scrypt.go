@@ -10,8 +10,8 @@ import (
 
 	"fmt"
 
-	"github.com/gyepisam/mcf"
-	"github.com/gyepisam/mcf/bridge"
+	"github.com/pzduniak/mcf"
+	"github.com/pzduniak/mcf/bridge"
 )
 
 // Circa 2014 work factors.
