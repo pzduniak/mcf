@@ -6,7 +6,7 @@
 package scrypt
 
 import (
-	"code.google.com/p/go.crypto/scrypt"
+	"golang.org/x/crypto/scrypt"
 
 	"fmt"
 
