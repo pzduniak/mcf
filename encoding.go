@@ -13,6 +13,7 @@ const (
 	BCRYPT Encoding = iota // import "github.com/pzduniak/mcf/bcrypt"
 	SCRYPT                 // import "github.com/pzduniak/mcf/scrypt"
 	PBKDF2                 // import "github.com/pzduniak/mcf/pbkdf2"
+	ARGON2                 // import "github.com/pzduniak/mcf/argon2"
 	//CRYPT                       // Not implemented yet
 
 	maxEncoding
