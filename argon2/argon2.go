@@ -13,7 +13,7 @@ import (
 // Around 10ms per check on modern low-range server hardware
 const (
 	DefaultKeyLen      = 32
-	DefaultSaltLeng    = 16
+	DefaultSaltLen     = 16
 	DefaultIterations  = 8
 	DefaultMemory      = 1024
 	DefaultParallelism = 4
@@ -25,9 +25,9 @@ type Config struct {
 	KeyLen  int // Key output size in bytes
 	SaltLen int // Length of salt in bytes
 
-	Iterations  int // CPU cost
-	Memory      int // Memory cost
-	Parallelism int // Threads to spawn
+	Iterations  uint32 // CPU cost
+	Memory      uint32 // Memory cost
+	Parallelism uint32 // Threads to spawn
 }
 
 // Custom source of salt, normally unset.
