@@ -102,7 +102,7 @@ func init() {
 
 func (c *Config) validate() error {
 	//punt, cheat and see if the underlying algorithm complains!
-	_, err := c.Key([]byte("password"), []byte("salt"))
+	_, err := c.Key([]byte("password"), []byte("saltsalt"))
 	return err
 }
 
