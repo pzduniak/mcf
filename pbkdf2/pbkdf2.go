@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"hash"
 
-	"code.google.com/p/go.crypto/pbkdf2"
+	"golang.org/x/crypto/pbkdf2"
 
 	"github.com/pzduniak/mcf"
 	"github.com/pzduniak/mcf/bridge"
